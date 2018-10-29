@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.actitime.tests.VerifyBuildNumberTest"/>
+      <class name="com.actitime.tests.InvalidLoginTest"/>
+      <class name="com.actitime.tests.ImportTasksFromCsvTest"/>
+      <class name="com.actitime.tests.TaskDeleteCancelTest"/>
+      <class name="com.actitime.tests.VerifyVersionTest"/>
+      <class name="com.actitime.tests.ValidLoginLogoutTest"/>
+      <class name="com.actitime.tests.FbValidLoginLogoutTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
